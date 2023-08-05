@@ -24,10 +24,10 @@ export const WineCaption = styled(Typography)(({ theme }) => ({
   lineHeight: 1.5,
   fontWeight: "light",
   fontStyle: "oblique",
-  fontSize: "0.578rem",
+  fontSize: "0.7rem",
 
   [theme.breakpoints.down("sm")]: {
-    fontSize: "0.6em",
+    fontSize: "0.578rem",
   },
 }));
 
@@ -40,5 +40,18 @@ export const MyWine = styled(Box)(({ theme }) => ({
   flexDirection: "column",
   [theme.breakpoints.up("md")]: {
     position: "relative",
+  },
+}));
+
+export const WineDetailText = styled(Typography)(({ theme }) => ({
+  padding: "30px",
+  textAlign: "justify",
+  fontFamily: "Space Grotesk",
+  lineHeight: 1.5,
+  fontWeight: "light",
+  fontStyle: "oblique",
+  fontSize: "0.578rem",
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "0.6em",
   },
 }));

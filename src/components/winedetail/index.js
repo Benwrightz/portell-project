@@ -13,7 +13,7 @@ import {
 import CloseIcon from "@mui/icons-material/Close";
 import { Colors } from "../../styles/theme";
 import { Wine } from "../../styles/wines";
-import { MyWine, WineImage } from "../../styles/mywines";
+import { MyWine, WineCaption, WineImage } from "../../styles/mywines";
 import React from "react";
 
 export const SlideTransition = React.forwardRef((props, ref) => (
@@ -22,7 +22,7 @@ export const SlideTransition = React.forwardRef((props, ref) => (
 
 const WineDetailWrapper = styled(Box)(({ theme }) => ({
   display: "flex",
-  //padding: theme.padding(4),
+  padding: theme.spacing(4),
 }));
 
 const WineDetailInfoWrapper = styled(Box)(({ theme }) => ({
@@ -55,7 +55,7 @@ export default function WineDetail({ open, onClose, wine }) {
           </IconButton>
         </Box>
       </DialogTitle>
-      <DialogContent>
+      <DialogContent sx={{ background: Colors.black }}>
         <WineDetailWrapper flexDirection={matches ? "column" : "row"}>
           <MyWine sx={{ mr: 4 }}>
             <WineImage
@@ -64,9 +64,37 @@ export default function WineDetail({ open, onClose, wine }) {
             />
           </MyWine>
           <WineDetailInfoWrapper>
-            <Typography>{wine.name}</Typography>
-            <Typography>{wine.Type}</Typography>
-            <Typography>{wine.description}</Typography>
+            <Typography
+              variant="h2"
+              sx={{
+                padding: "10px",
+                fontSize: matches ? "1.5rem" : "2rem",
+                color: Colors.white,
+                lineHeight: 1.5,
+              }}
+            >
+              {wine.name}
+            </Typography>
+            <WineCaption
+              variant="caption text"
+              sx={{
+                padding: "10px",
+              }}
+            >
+              {wine.Type}
+            </WineCaption>
+            <Typography
+              variant="body2"
+              sx={{
+                padding: "10px",
+                color: Colors.white,
+                lineHeight: 1.5,
+                textAlign: "justify",
+                fontFamily: "Times",
+              }}
+            >
+              {wine.description}
+            </Typography>
           </WineDetailInfoWrapper>
         </WineDetailWrapper>
       </DialogContent>
