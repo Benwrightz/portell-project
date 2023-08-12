@@ -1,0 +1,124 @@
+{
+  "appbar": {
+    "home": "Home",
+    "about": "About",
+    "wines": "Wines",
+    "contact": "Contact"
+  },
+
+  "messages": {
+    "intro": "Introducing Portell wines 🍷",
+    "pleasure": "A pleasure with denomination of Origin",
+    "refine": "Refinement in a bottle"
+  },
+  "landing": {
+    "text": "Discover the Portell Experience",
+    "description": "Elevate your moments of celebration, create unforgettable memories\nwith loved ones, and savor the joy of life with Portell Wine.\nWhether it's a quiet evening at home, a grand occasion, or a\nspontaneous gathering of friends, Portell will elevate your\nexperience to extraordinary heights. Explore our exceptional\ncollection of Portell wines and embrace the true essence of\nelegance. With each bottle uncorked, let the magic of Portell\ntransport you to a world of refined tastes and unforgettable\nexperiences.",
+    "caption": " Are you ready to uncork the journey? Discover Portell Wine today!",
+    "button": "Explore Our Wines"
+  },
+  "body": {
+    "text": " Message from Portell",
+    "title": "A New Generation of Winemakers",
+    "description": "There are many variations of passages of Lorem Ipsum available, but\nthe majority have suffered alteration in some form, by injected\nhumour, or randomised words which don't look even slightly believable.\nIf you are going to use a passage of Lorem Ipsum, you need to be sure\nthere isn't anything embarrassing hidden in the middle of text. All\nthe Lorem Ipsum generators on the Internet tend to repeat predefined\nchunks as necessary, making this the first true generator on the\nInternet. It uses a dictionary of over 200 Latin words, combined with\na handful of model sentence structures, to generate Lorem Ipsum which\nlooks reasonable. The generated Lorem Ipsum is therefore always free\nfrom repetition, injected humour, or non-characteristic words etc."
+  },
+  "portell": [
+    {
+      "id": 1,
+      "name": "Portell Collita 2009",
+      "type": "Ageing Red wine",
+      "alcohol": "13.0% vol.",
+      "variety": "30% Tempranillo, 40% Cabernet Sauvignon, 30% Merlot",
+      "description": "Winemaking: Harvesting and winemaking of the different varieties take place separately. Then it follows a long maceration after the fermentation. For 12 months, it ages in American and French oak barrels. After this period, it undergoes a finishing ageing process in the bottle.\r\nTaste note: Dark red currant with brick shades color. Balsamic aroma with toast notes on a red ripe fruit background. Soft and silky attack, fleshy and well balanced with a long finish. Complex retro nasal passage.\r\nGastronomy: Appropriate to accompany with cooked meats, wild flesh and fowl, seasoned dishes with sauce, creamy cheese, and sausage. It is recommended to follow its evolution during the next years.\r\nServing Temperature: 16-18°C",
+      "image": "images/wines/wine1.png"
+    },
+    {
+      "id": 2,
+      "name": "Portell Blanc de Blancs",
+      "type": "Young White",
+      "alcohol": "11.5% vol.",
+      "variety": "85% Macabeu, 15% Parellada",
+      "description": "Winemaking: Young Mediterranean white wine elaborated from first pressing musts, that after skimming and fermentation at very low temperature gets its aromatic potential.\r\nTaste note: Wine of a bright pale yellow color with notes of white fruit varieties: pear, apple, with a background of fine lemon notes. Soft and well balanced, with a delicate acidity that gives it freshness and vivacity.\r\nGastronomy: We can take it with „tapas or to accompany light summer dishes (salads, cold plates, etc.) as well as seafood and blue fish.\r\nServing Temperature: 6-8°C",
+      "image": "images/wines/wine2.png"
+    },
+    {
+      "id": 3,
+      "name": "Portell Brut",
+      "type": "Brut Cava",
+      "alcohol": "11.5% vol.",
+      "variety": "70% Macabue, 30% Paralleda",
+      "description": "Winemaking: This cava is produced from the optimal blending of the best Macabeo and Parellada wines according the method „Champenoise\". Then it rests into the cellar for a minimum of 15 months.\r\nTaste' note: The result of an accurate elaboration process is a cava of yellow color with green reflections and a persistent crown of fine bubbles. The varietal aromas are complemented with milky notes and a delicate white fruit (pear, apple) back-ground. On the palate it is nice, well-balanced acidity and well-integrated carbonic that gives a broad and persistent finish.\r\nGastronomy: Each bottle expresses the virtues of a great cava. Ideal to drink during any time of the day or night. It combines with all kinds of meals from seafood to desserts, as well as alone.\r\nServing Temperature: 6-8°C",
+      "image": "images/wines/wine3.png"
+    },
+    {
+      "id": 4,
+      "name": "Portell Secrets",
+      "type": "Rose wine",
+      "alcohol": "11.5% vol.",
+      "variety": "100% Trepat",
+      "description": "Winemaking: We find the secret of this pale rosé wine in its Provence style wine making. Using only the juice from grapes harvested in the early morning so that we receive them into the cellar as cold as possible and avoid the must from oxidations. Once we've obtained these musts, they are soaked with the buds down for more than 10 days at low temperature before fermentation to increase its finesse and aromatic intensity and preserve the delicate color that makes this varietal of Trepat so special.\r\nTasting note: It has a pale, clear, and shinning rose rosé color, with salmon color undertones. It's delicate and fruity with notes of white peach and apricot mixed with passion fruit and hints of white fruits (pear, apple). It is full and fresh, well balanced, it has good acidity, and with a persistent finish of citric and white fruits.\r\nGastronomy: Ideal as an aperitif, yet agile enough to accompany any kind of shellfish, light „tapas\", and soft cheeses.\r\nServing Temperature: 8-10°C",
+      "image": "images/wines/wine4.png"
+    },
+    {
+      "id": 5,
+      "name": "Portell Semi dole",
+      "type": "Semisweet White Wine",
+      "alcohol": "10.0% vol.",
+      "variety": "90% Macabeu, 10% Parellada",
+      "description": "Winemaking: From the late harvests we get good ripe grapes with a high sugar concentration ideal to elaborate this wine.\nTaste note: Pale yellow with bright golden reflects.\nVery shining.\nVery delicate ripe fruit and floral aromas On the palate results clean and with a long aftertaste.\nGastronomy: Very good as appetizer, also good in combination with foie, and dishes with bittersweet sauce, curry, Asiatic cooking in general.\nServing Temperature: 8 - 10°C",
+      "image": "images/wines/wine5.png"
+    },
+    {
+      "id": 6,
+      "name": "Portell Rose Ice",
+      "type": "Demi-sec Cava",
+      "alcohol": "11.5% vol.",
+      "variety": "100% Trepat",
+      "description": "Winemaking: Due to the exclusive presence of the Trepat variety, this cava possesses a unique personality. The traditional method of second fermentation in the bottle is employed, with a minimum aging of 9 months.\nTasting Notes: The wine exhibits a suggestive pale pink color with salmon reflections. Its small, continuous bubbles form a persistent crown. Aromas of pomegranate and red berry fruits are complemented by integrated, delicate bakery notes. The mouthfeel is well-structured with good effervescence, balanced by a fresh introduction of red fruits and a gentle, sweet finish.\nCuisine: Ideal to be served in a glass with ice and a touch of citrus such as orange to counterbalance its characteristic sweetness. It pairs well with snacks as well as sweet desserts.\nServing Temperature: 6-8°C",
+      "image": "images/wines/wine6.png"
+    },
+    {
+      "id": 7,
+      "name": "Portell Brut Rose Cava",
+      "type": "Brut Rose Cava",
+      "alcohol": "11.5% vol.",
+      "variety": "100% Trepat",
+      "description": "Winemaking: Thanks to the exclusive use of the Trepat variety, our cava boasts a distinctive character. We are the largest producers of this grape, which serves as the base wine for cavas crafted from this indigenous Conca de Barbera variety.\nTasting Notes: Delight in a cava with a captivating vivid cherry color, accompanied by shimmering, clear salmon reflections and abundant fine bubbles. The characteristic fresh strawberry aromas of this variety linger persistently on the palate, offering finesse and harmony.\nCuisine: Ideal as an aperitif, this uniquely colored cava adds elegance to our table and pairs well with sausages, jellies, cannelloni, and other festive dishes.\nServing Temperature: 6-8°C",
+      "image": "images/wines/wine7.png"
+    },
+    {
+      "id": 8,
+      "name": "Portell Reserva",
+      "type": "Red wine, dry",
+      "alcohol": "13.0% vol.",
+      "variety": "60% Tempranillo, 30% Cabernet Sauvignon, 30% Merlot",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "images/wines/wine8.png"
+    },
+    {
+      "id": 9,
+      "name": "Portell Trepat",
+      "type": "Rose wine",
+      "alcohol": "11.5% vol.",
+      "variety": "100% Trepat",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "images/wines/wine9.png"
+    },
+    {
+      "id": 10,
+      "name": "Portell Seleccio",
+      "type": "Red wine",
+      "alcohol": "12.5% vol.",
+      "variety": "70% Tempranillo, 15% Cabernet Sauvignon, 15% Merlot",
+      "description": "Winemaking: This Red Wine is primarily crafted from the Tempranillo grape variety. Through a prolonged maceration process at a controlled temperature of 27°C, enhanced color and aromas are extracted. A portion of the wine is then aged in American oak barrels. The remainder is stored in tanks for a minimum of 12 months. After a year from harvest, the two wines are blended and bottled.\nTasting Notes: The outcome is a wine displaying a brick red hue against a ruby backdrop. It exudes an intense aroma of forest fruits with toasted notes. The palate experiences a soft and warm sensation with a distinct spicy finish.\nCuisine: It complements a wide range of dishes and serves as an excellent accompaniment to local cuisine from our region, such as calçots, coques de recapte, raw cod, grilled meat, and more.\nServing Temperature: 16°C",
+      "image": "images/wines/wine10.png"
+    }
+  ],
+  "wine": {
+    "winedetail": "Wine Details"
+  },
+  "footer": {
+    "title": "Contact us",
+    "description": "Do you have questions, feedback, or would you like to learn more about our Portell wines? We're here to assist you! We're delighted to provide you with all the information you need about our exquisite wines, the production process, and tasting options.\n\nOur expert team is ready to address your inquiries and offer guidance on wine selection, event planning, and any other aspects related to our products. We are committed to delivering top-notch service and ensuring your satisfaction.\n\nYou can reach out to us through the contact form below, send an email to [email address], or call us at [phone number]. Our passion for wine is an integral part of what we do, and we want you to enjoy and be inspired by this captivating world of Portell wines.\n\nWe look forward to hearing from you and sharing the fascinating world of Portell with you!\n\nWarm regards,\nThe Portell Wines Team "
+  }
+}

@@ -1,4 +1,4 @@
-import { Box, List, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { Colors } from "../theme";
 
@@ -9,6 +9,8 @@ export const FooterContainer = styled(Box)(({ theme }) => ({
   alignItems: "center",
   justifyContent: "space-between",
   color: "#ad9d85",
+  width: "100%",
+  height: "100vh",
 }));
 
 export const FooterMedia = styled(Box)(({ theme }) => ({
@@ -31,6 +33,7 @@ export const FooterTitle = styled(Typography)(() => ({
   color: Colors.secondary,
   lineHeight: 1.5,
   fontWeight: "bold",
+  textAlign: "center",
 }));
 
 export const FooterDescription = styled(Typography)(() => ({

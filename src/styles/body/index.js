@@ -39,14 +39,13 @@ export const BodyTitle = styled(Typography)(({ theme }) => ({
 
 export const BodyDescription = styled(Typography)(({ theme }) => ({
   color: Colors.white,
-  textAlign: "justify",
+  textAlign: "left",
   lineHeight: 1.5,
-  fontFamily: "Space Grotesk",
+  fontFamily: "Times",
   fontSize: "0.8125rem",
 
   marginBottom: "3em",
   [theme.breakpoints.down("sm")]: {
-    lineHeight: 1.5,
     marginBottom: "1.5em",
   },
 }));

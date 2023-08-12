@@ -1,6 +1,6 @@
 import { Box, List, Typography, IconButton } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import { Colors, DrawerWidth } from "../theme";
+import { DrawerWidth } from "../theme";
 
 export const AppbarContainer = styled(Box)(() => ({
   display: "flex",
@@ -8,6 +8,7 @@ export const AppbarContainer = styled(Box)(() => ({
   justifyContent: "center",
   alignItems: "center",
   padding: "2px 8px",
+  width: "100%",
 }));
 
 export const AppbarLogo = styled("img")(({ src, theme }) => ({

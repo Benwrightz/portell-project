@@ -12,9 +12,9 @@ import {
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import { Colors } from "../../styles/theme";
-import { Wine } from "../../styles/wines";
 import { MyWine, WineCaption, WineImage } from "../../styles/mywines";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export const SlideTransition = React.forwardRef((props, ref) => (
   <Slide direction="down" {...props} ref={ref} />
@@ -35,6 +35,7 @@ const WineDetailInfoWrapper = styled(Box)(({ theme }) => ({
 export default function WineDetail({ open, onClose, wine }) {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
+  const { t } = useTranslation();
 
   return (
     <Dialog
@@ -49,7 +50,9 @@ export default function WineDetail({ open, onClose, wine }) {
           alignItems="center"
           justifyContent={"space-between"}
         >
-          <Typography sx={{ color: Colors.secondary }}>Wine Title</Typography>
+          <Typography sx={{ color: Colors.secondary }}>
+            {t("wine.winedetail")}
+          </Typography>
           <IconButton onClick={onClose}>
             <CloseIcon sx={{ color: Colors.secondary }} />
           </IconButton>
@@ -81,7 +84,23 @@ export default function WineDetail({ open, onClose, wine }) {
                 padding: "10px",
               }}
             >
-              {wine.Type}
+              {wine.type}
+            </WineCaption>
+            <WineCaption
+              variant="caption text"
+              sx={{
+                padding: "10px",
+              }}
+            >
+              {wine.alcohol}
+            </WineCaption>
+            <WineCaption
+              variant="caption text"
+              sx={{
+                padding: "10px",
+              }}
+            >
+              {wine.variety}
             </WineCaption>
             <Typography
               variant="body2"

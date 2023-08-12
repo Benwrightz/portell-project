@@ -14,9 +14,9 @@ import { DrawerCloseButton } from "../../styles/appbar";
 import CloseIcon from "@mui/icons-material/Close";
 import { lighten } from "polished";
 import { Colors } from "../../styles/theme";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const MiddleDivider = styled((props) => (
   <Divider variant="middle" {...props} />
@@ -26,6 +26,7 @@ export default function AppDrawer() {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
   const { drawerOpen, setDrawerOpen } = useUIContext();
+  const { t } = useTranslation();
   return (
     <>
       {drawerOpen && (
@@ -40,32 +41,28 @@ export default function AppDrawer() {
       )}
       <Drawer open={drawerOpen}>
         <List>
-          <ListItemButton>
-            <ListItemText>Home</ListItemText>
+          <ListItemButton component={Link} to="/">
+            <ListItemText>{t("appbar.home")}</ListItemText>
+          </ListItemButton>
+          <MiddleDivider />
+          <ListItemButton component={Link} to="/AboutUs">
+            <ListItemText>{t("appbar.about")} </ListItemText>
+          </ListItemButton>
+          <MiddleDivider />
+          <ListItemButton component={Link} to="/OurWines">
+            <ListItemText> {t("appbar.wines")}</ListItemText>
+          </ListItemButton>
+          <MiddleDivider />
+          <ListItemButton component={Link} to="/ContactUs">
+            <ListItemText>{t("appbar.contact")}</ListItemText>
           </ListItemButton>
           <MiddleDivider />
           <ListItemButton>
-            <ListItemText>Categories</ListItemText>
-          </ListItemButton>
-          <MiddleDivider />
-          <ListItemButton>
-            <ListItemText>Products</ListItemText>
-          </ListItemButton>
-          <MiddleDivider />
-          <ListItemButton>
-            <ListItemText>Contact us</ListItemText>
-          </ListItemButton>
-          <MiddleDivider />
-          <ListItemButton>
-            <ListItemIcon sx={{ color: Colors.white }}>
-              <FacebookIcon />
-            </ListItemIcon>
-            <ListItemIcon sx={{ color: Colors.white }}>
-              <TwitterIcon />
-            </ListItemIcon>
-            <ListItemIcon sx={{ color: Colors.white }}>
-              <InstagramIcon />
-            </ListItemIcon>
+            <Link to="https://www.instagram.com/portellpl/" target="_blank">
+              <ListItemIcon sx={{ color: Colors.white }}>
+                <InstagramIcon />
+              </ListItemIcon>
+            </Link>
           </ListItemButton>
         </List>
       </Drawer>

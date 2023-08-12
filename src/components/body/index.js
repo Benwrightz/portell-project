@@ -9,10 +9,12 @@ import {
   BodyTitle,
 } from "../../styles/body";
 import { Colors } from "../../styles/theme";
+import { useTranslation } from "react-i18next";
 
 export default function Body() {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
+  const { t } = useTranslation();
   return (
     <BodyContainer>
       <BodyImage src="/images/body/body1.jpg" />
@@ -28,21 +30,11 @@ export default function Body() {
             fontWeight: "bold",
           }}
         >
-          Message from Portell
+          {t("body.text")}
         </Typography>
-        <BodyTitle variant="h5">A New Generation of Winemakers</BodyTitle>
-        <BodyDescription>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
-          repellat autem vitae temporibus aut, beatae alias dignissimos delectus
-          laudantium nihil dolores, officia molestiae natus id accusantium nulla
-          sunt eius aliquam! Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Alias, ipsam perferendis laboriosam dolorem facilis quaerat
-          voluptatem vero ex distinctio ratione amet possimus voluptas quibusdam
-          blanditiis soluta quod reiciendis vitae reprehenderit. Lorem ipsum,
-          dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Architecto aut voluptates, eius
-          officia doloremque a sit quidem unde nostrum deserunt laudantium nisi
-          praesentium, assumenda quod voluptatum magni maiores. Dolore, quaerat.
+        <BodyTitle variant="h5">{t("body.title")}</BodyTitle>
+        <BodyDescription variant="body2">
+          {t("body.description")}
         </BodyDescription>
       </BodyContent>
     </BodyContainer>

@@ -1,22 +1,26 @@
 import { styled } from "@mui/material/styles";
 import { Box } from "@mui/system";
 import { Colors } from "../theme";
-import { Typography, Button } from "@mui/material";
+import { Typography } from "@mui/material";
 
 export const LandingContainer = styled(Box)(({ theme }) => ({
   display: "flex",
-  //justifyContent: "center",
+  justifyContent: "center",
   width: "100%",
-  height: "100%",
+  height: "100vh",
   padding: "0px 0px",
   background: Colors.black,
+  position: "relative",
   [theme.breakpoints.down("sm")]: {
     flexDirection: "column",
-    //alignItems: "center",
+    alignItems: "center",
+    width: "100%",
+    height: "100vh",
   },
 }));
 
 export const LandingContent = styled(Box)(() => ({
+  position: "absolute",
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
@@ -33,7 +37,6 @@ export const LandingImage = styled("img")(({ src, theme }) => ({
   },
   [theme.breakpoints.down("sm")]: {
     width: "300px",
-    marginBottom: "50px",
   },
 }));
 
@@ -41,7 +44,6 @@ export const LandingDescription = styled(Typography)(({ theme }) => ({
   color: Colors.white,
   textAlign: "center",
   lineHeight: 1.5,
-  //fontFamily: "Space Grotesk",
   fontFamily: "Times",
   fontSize: "0.8125rem",
 
@@ -53,6 +55,20 @@ export const LandingDescription = styled(Typography)(({ theme }) => ({
 }));
 
 export const LandingText = styled(Typography)(({ theme }) => ({
+  color: Colors.secondary,
+  fontFamily: "Space Grotesk",
+  fontSize: "2rem",
+  textTransform: "uppercase",
+  letterSpacing: "2px",
+  fontWeight: "bold",
+  marginBottom: "2em",
+  textAlign: "center",
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "1rem",
+  },
+}));
+
+export const LandingCaption = styled(Typography)(({ theme }) => ({
   color: Colors.secondary,
   fontFamily: "Space Grotesk",
   fontSize: "2rem",

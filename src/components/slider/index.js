@@ -1,18 +1,15 @@
 import { Box, Slide } from "@mui/material";
 import { SliderContainer, SliderMessage } from "../../styles/slider";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
-const messages = [
-  "Introducing Portell wines 🍷",
-  "A pleasure with denomination of Origin",
-  "Refinement in a bottle ",
-];
+const messages = ["intro", "pleasure", "refine"];
 
 export default function Slider() {
   const containerRef = useRef();
   const [messageIndex, setMessageIndex] = useState(0);
   const [show, setShow] = useState(true);
-
+  const { t } = useTranslation();
   useEffect(() => {
     setTimeout(() => {
       setShow(false);
@@ -37,7 +34,9 @@ export default function Slider() {
         timeout={{ enter: 500, exit: 100 }}
       >
         <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
-          <SliderMessage>{messages[messageIndex]}</SliderMessage>
+          <SliderMessage>
+            {t(`messages.${messages[messageIndex]}`)}
+          </SliderMessage>
         </Box>
       </Slide>
     </SliderContainer>

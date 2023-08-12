@@ -1,8 +1,6 @@
 import React from "react";
 import {
   Box,
-  Typography,
-  Fade,
   Grow,
   Slide,
   Button,
@@ -11,6 +9,7 @@ import {
 } from "@mui/material";
 import { Colors } from "../../styles/theme";
 import {
+  LandingCaption,
   LandingContainer,
   LandingContent,
   LandingDescription,
@@ -18,10 +17,12 @@ import {
   LandingText,
 } from "../../styles/landing";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import { useTheme } from "@mui/material/styles";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function LandingPage() {
+  const { t } = useTranslation();
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
   const [contentVisible, setContentVisible] = React.useState(false);
@@ -38,29 +39,19 @@ export default function LandingPage() {
 
   React.useEffect(() => {
     // Set the visibility state to true after a short delay (you can adjust the delay as needed)
-    setTimeout(() => setContentVisible(true), 500);
-    setTimeout(() => setImageVisible(true), 700); // Delay the image slide-in a bit after the content
+    setTimeout(() => setContentVisible(true), 1600);
+    setTimeout(() => setImageVisible(true), 500); // Delay the image slide-in a bit after the content
   }, []);
   return (
     <LandingContainer>
       <Grow in={contentVisible} onEnter={handleContentEnter} timeout={1500}>
         <LandingContent>
-          <LandingText variant="h2">
-            Discover the Portell Experience
-          </LandingText>
+          <LandingText variant="h2">{t("landing.text")}</LandingText>
 
           <LandingDescription variant="body2">
-            Elevate your moments of celebration, create unforgettable memories
-            with loved ones, and savor the joy of life with Portell Wine.
-            Whether it's a quiet evening at home, a grand occasion, or a
-            spontaneous gathering of friends, Portell will elevate your
-            experience to extraordinary heights. Explore our exceptional
-            collection of Portell wines and embrace the true essence of
-            elegance. With each bottle uncorked, let the magic of Portell
-            transport you to a world of refined tastes and unforgettable
-            experiences.
+            {t("landing.description")}
           </LandingDescription>
-          <LandingText
+          <LandingCaption
             variant="body2"
             sx={{
               marginBottom: "2em",
@@ -68,8 +59,8 @@ export default function LandingPage() {
               fontSize: matches ? "0.5rem " : "0.7rem",
             }}
           >
-            Are you ready to uncork the journey? Discover Portell Wine today!
-          </LandingText>
+            {t("landing.caption")}
+          </LandingCaption>
 
           <Box
             sx={{
@@ -78,10 +69,18 @@ export default function LandingPage() {
               alignItems: "center",
             }}
           >
-            <Button variant="contained" color="primary" size="medium">
-              Explore Our Wines
-            </Button>
-            <IconButton color="primary" aria-label="Instagram" sx={{ ml: 1 }}>
+            <Link to="/Ourwines">
+              <Button variant="contained" color="primary" size="medium">
+                {t("landing.button")}
+              </Button>
+            </Link>
+            <IconButton
+              color="primary"
+              aria-label="Instagram"
+              sx={{ ml: 1 }}
+              href="https://www.instagram.com/portellpl/"
+              target="_blank"
+            >
               <InstagramIcon />
             </IconButton>
           </Box>
@@ -95,7 +94,6 @@ export default function LandingPage() {
       >
         <LandingImage src="/images/landing/bottle2.png" />
       </Slide>
-      {/* Content goes here */}
     </LandingContainer>
   );
 }

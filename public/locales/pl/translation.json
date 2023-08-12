@@ -1,0 +1,124 @@
+{
+  "appbar": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "wines": "Wina",
+    "contact": "Kontakt"
+  },
+
+  "messages": {
+    "intro": "Przedstawiamy wina Portell 🍷",
+    "pleasure": "Przyjemność z pochodzeniem",
+    "refine": "Wyrafinowanie w butelce"
+  },
+  "landing": {
+    "text": "Odkryj doświadczenie z winem Portell",
+    "description": "Podnieś swoje chwile celebracji, twórz niezapomniane wspomnienia\nz bliskimi i rozkoszuj się radością życia dzięki winu Portell.\nCzy to cichy wieczór w domu, wielka okazja czy spontaniczne spotkanie przyjaciół,\nPortell podniesie twoje doświadczenia do niezwykłych wysokości. Odkryj naszą wyjątkową kolekcję win Portell\ni obejmij prawdziwą esencję elegancji. Z każdą odkorkowaną butelką, niech magia Portell przeniesie cię do świata wykwintnych smaków\ni niezapomnianych przeżyć.",
+    "caption": "Czy jesteś gotów odkorkować tę podróż? Odkryj wino Portell już dziś!",
+    "button": "Odkryj Nasze Wina"
+  },
+  "body": {
+    "text": "Wiadomość od Winiarni Portell",
+    "title": "Nowa Generacja Winiarzy",
+    "description": "Istnieje wiele wariacji fragmentów Lorem Ipsum dostępnych, ale\nwiększość doświadczyła pewnych zmian, poprzez dodanie humoru lub losowo dobieranych\nsłów, które nawet trochę nie wydają się wiarygodne. Jeśli zamierzasz użyć fragmentu\nLorem Ipsum, musisz się upewnić, że nie ma niczego żenującego ukrytego w środku tekstu.\nWszystkie generatory Lorem Ipsum w internecie mają tendencję do powtarzania zdefiniowanych\nfragmentów, aż będzie to konieczne, co czyni go pierwszym prawdziwym generatorem\nna internecie. Używa słownika ponad 200 łacińskich słów, w połączeniu z kilkoma\nmodelowymi strukturami zdań, aby wygenerować Lorem Ipsum, które wygląda rozsądnie.\nGenerowane Lorem Ipsum jest więc zawsze wolne od powtórzeń, wtrąceń humoru\nczy nienaturalnych słów itp."
+  },
+  "portell": [
+    {
+      "id": 1,
+      "name": "Portell Collita 2009",
+      "type": "Starzenie Czerwonego Wina",
+      "alcohol": "13,0% obj.",
+      "variety": "30% Tempranillo, 40% Cabernet Sauvignon, 30% Merlot",
+      "description": "Wytwarzanie: Zbiór i wytwarzanie różnych odmian odbywa się oddzielnie. Następnie następuje długa maceracja po fermentacji. Przez 12 miesięcy dojrzewa w beczkach dębowych amerykańskich i francuskich. Po tym okresie przechodzi proces końcowego starzenia w butelce.\r\nNuta smakowa: Ciemna czerwona porzeczka z odcieniami ceglastych. Zapach balsamiczny z nutami tostowymi na tle dojrzałych owoców czerwonych. Miękki i jedwabisty atak, soczysty i dobrze wyważony z długim finiszem. Skomplikowany retro-nosowy przebieg.\r\nGastronomia: Nadaje się do podawania z mięsem gotowanym, dziczyzną, potrawami przyprawionymi sosem, kremowymi serami i kiełbasą. Zaleca się śledzenie jego ewolucji w ciągu najbliższych lat.\r\nTemperatura podawania: 16-18°C",
+      "image": "images/wines/wine1.png"
+    },
+    {
+      "id": 2,
+      "name": "Portell Blanc de Blancs",
+      "type": "Młode Białe Wino",
+      "alcohol": "11,5% obj.",
+      "variety": "85% Macabeu, 15% Parellada",
+      "description": "Wytwarzanie: Młode śródziemnomorskie białe wino wyprodukowane z pierwszego tłoczenia moszczu, który po osadzaniu i fermentacji w bardzo niskiej temperaturze uzyskuje swój potencjał aromatyczny.\r\nNuta smakowa: Wino o jasnożółtym kolorze z nutami białych odmian owoców: gruszka, jabłko, z tłem delikatnych nut cytrynowych. Miękko wyważone, z delikatną kwasowością nadającą świeżość i wigor.\r\nGastronomia: Możemy podać je z „tapas” lub do lekkich letnich dań (sałatki, zimne dania itp.), a także do owoców morza i ryb.\r\nTemperatura podawania: 6-8°C",
+      "image": "images/wines/wine2.png"
+    },
+    {
+      "id": 3,
+      "name": "Portell Brut",
+      "type": "Szampan",
+      "alcohol": "11,5% obj.",
+      "variety": "70% Macabue, 30% Paralleda",
+      "description": "Wytwarzanie: Ten szampan jest produkowany z optymalnego połączenia najlepszych win Macabeo i Parellada zgodnie z metodą „Champenoise”. Następnie spoczywa w piwnicy przez co najmniej 15 miesięcy.\r\nNuta smakowa: Wynikiem dokładnego procesu wytwórczego jest szampan o żółtym kolorze z zielonymi refleksami i trwałą koroną drobnych bąbelków. Aromaty odmianowe uzupełnione są nutami mlecznymi i delikatnym owocem białym (gruszka, jabłko) w tle. Na podniebieniu jest miły, dobrze wyważona kwasowość i dobrze zintegrowany dwutlenek węgla, który nadaje szeroki i trwały finisz.\r\nGastronomia: Każda butelka wyraża zalety doskonałego szampana. Idealny do picia w dowolnym czasie dnia lub nocy. Łączy się z różnymi rodzajami potraw, od owoców morza po desery, a także jako samodzielna propozycja.\r\nTemperatura podawania: 6-8°C",
+      "image": "images/wines/wine3.png"
+    },
+    {
+      "id": 4,
+      "name": "Portell Secrets",
+      "type": "Wino Różowe",
+      "alcohol": "11,5% obj.",
+      "variety": "100% Trepat",
+      "description": "Wytwarzanie: Sekret tego jasnego wina różowego kryje się w jego stylu produkcji na wzór win z Prowansji. Używając tylko soku z winogron zbieranych wcześnie rano, aby dostarczyć je do piwnicy jak najzimniejsze i uniknąć utleniania moszczu. Po uzyskaniu tych moszczów są namaczane główkami w dół przez ponad 10 dni w niskiej temperaturze przed fermentacją, aby zwiększyć delikatność i intensywność aromatu oraz zachować delikatny kolor, który czyni tę odmianę Trepat tak wyjątkową.\r\nNuta smakowa: Ma jasny, czysty i lśniący kolor różowego różu, z odcieniami łososiowych kolorów. Jest delikatny i owocowy, z nutami białego brzoskwini i moreli mieszanej z marakują i nutami białych owoców (gruszka, jabłko). Jest pełny i świeży, dobrze wyważony, ma dobrą kwasowość i trwały finisz cytrusowy i owocowy.\r\nGastronomia: Idealny jako aperitif, ale wystarczająco wszechstronny, aby towarzyszyć wszelkiego rodzaju skorupiakom, lekkim „tapas” i miękkim serom.\r\nTemperatura podawania: 8-10°C",
+      "image": "images/wines/wine4.png"
+    },
+    {
+      "id": 5,
+      "name": "Portell Semi dole",
+      "type": "Półsłodkie Białe Wino",
+      "alcohol": "10,0% obj.",
+      "variety": "90% Macabeu, 10% Parellada",
+      "description": "Wytwarzanie: Z późnych zbiorów uzyskujemy dojrzałe winogrona o dużej zawartości cukru, idealne do produkcji tego wina.\nNuta smakowa: Blady żółty z jasnymi złotymi refleksami.\nBardzo błyszczący.\nBardzo delikatne dojrzałe aromaty owocowe i kwiatowe. Na podniebieniu jest czysty i ma długi posmak.\nGastronomia: Bardzo dobre jako przekąska, dobre też w połączeniu z foie, daniami z sosem słodko-gorzki, curry, kuchnią azjatycką w ogóle.\nTemperatura podawania: 8 - 10°C",
+      "image": "images/wines/wine5.png"
+    },
+    {
+      "id": 6,
+      "name": "Portell Rose Ice",
+      "type": "Cava Demi-sec",
+      "alcohol": "11.5% obj.",
+      "variety": "100% Trepat",
+      "description": "Wytwarzanie wina: Ze względu na wyłączną obecność odmiany Trepat, ten cava posiada unikalną osobowość. Druga fermentacja w butelce odbywa się zgodnie z tradycyjną metodą, przy minimalnym leżakowaniu przez 9 miesięcy.\nOpis smaku: Sugestywny blady różowy kolor z odcieniami łososia. Małe i ciągłe bąbelki tworzą trwałą koronę. Aromaty granatu i owoców jagodowych łączą się z delikatnymi nutami piekarniczymi. W ustach jest dobrze zbudowany, z dobrą muskatością, zrównoważony świeżym akcentem czerwonych owoców i delikatnym, słodkim finiszem.\nGastronomia: Idealny do podania w kieliszku z lodem i odrobiną cytrusowego akcentu, takiego jak pomarańcza, aby zrównoważyć charakterystyczny słodki smak. Doskonale komponuje się z przekąskami oraz słodkimi deserami.\nTemperatura podawania: 6-8°C",
+      "image": "images/wines/wine6.png"
+    },
+    {
+      "id": 7,
+      "name": "Portell Brut Rose Cava",
+      "type": "Cava Brut Rosado",
+      "alcohol": "11.5% obj.",
+      "variety": "100% Trepat",
+      "description": "Wytwarzanie wina: Dzięki wyłącznemu użyciu odmiany Trepat, nasze cava posiada charakterystyczny charakter. Jesteśmy największymi producentami tej odmiany, która stanowi wino bazowe do cava tworzonego z tej autochtonicznej odmiany Conca de Barbera.\nOpis smaku: Ciesz się kawą o atrakcyjnym, intensywnym kolorze wiśni, towarzyszącym połyskującym, klarownym odcieniom łososia i obfitującym drobnymi bąbelkami. Charakterystyczne aromaty świeżych truskawek tej odmiany utrzymują się trwale na podniebieniu, oferując delikatność i harmonię.\nGastronomia: Idealny jako aperitif, ten kava o unikalnym kolorze dodaje elegancji naszemu stołowi i doskonale komponuje się z kiełbasami, galaretkami, cannelloni i innymi daniem na przyjęcia.\nTemperatura podawania: 6-8°C",
+      "image": "images/wines/wine7.png"
+    },
+    {
+      "id": 8,
+      "name": "Portell Reserva",
+      "type": "Czerwone wino, wytrawne",
+      "alcohol": "13.0% obj.",
+      "variety": "60% Tempranillo, 30% Cabernet Sauvignon, 30% Merlot",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "images/wines/wine8.png"
+    },
+    {
+      "id": 9,
+      "name": "Portell Trepat",
+      "type": "Różowe wino",
+      "alcohol": "11.5% obj.",
+      "variety": "100% Trepat",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "images/wines/wine9.png"
+    },
+    {
+      "id": 10,
+      "name": "Portell Seleccio",
+      "type": "Czerwone wino",
+      "alcohol": "12.5% obj.",
+      "variety": "70% Tempranillo, 15% Cabernet Sauvignon, 15% Merlot",
+      "description": "Wytwarzanie wina: To Czerwone Wino jest głównie wytwarzane z odmiany winogron Tempranillo. W wyniku długiego procesu maceracji w kontrolowanej temperaturze 27°C uzyskuje się lepszą ekstrakcję koloru i aromatów. Część wina jest następnie starzona w beczkach z amerykańskiego dębu. Pozostała część jest przechowywana w zbiornikach przez minimalnie 12 miesięcy. Po roku od zbiorów, oba wina są mieszane i butelkowane.\nOpis smaku: Efektem jest wino o ceglastoczerwonym kolorze na tle rubinowego tła. Wydobywa się z niego intensywny aromat owoców leśnych z nutami pieczonych. Podniebienie doznaje miękkiego i ciepłego odczucia z wyraźnym pikantnym finiszem.\nGastronomia: Doskonale komponuje się ze wszystkimi daniami i stanowi doskonałe uzupełnienie lokalnej kuchni naszego regionu, takiej jak calçots, coques de recapte, surowy dorsz, grillowane mięso i wiele innych.\nTemperatura podawania: 16°C",
+      "image": "images/wines/wine10.png"
+    }
+  ],
+  "wine": {
+    "winedetail": "Szczegóły Wina"
+  },
+  "footer": {
+    "title": "Skontaktuj się z nami",
+    "description": "Masz pytania, uwagi lub chciałbyś dowiedzieć się więcej o naszych winach Portell? Jesteśmy tutaj, aby Ci pomóc! Z przyjemnością udzielimy Ci wszelkich informacji dotyczących naszych wspaniałych win, procesu produkcji i możliwości degustacji.\n\nNasz zespół ekspercki jest gotowy odpowiedzieć na Twoje zapytania i służyć radą w kwestiach związanych z doborem wina, organizacją wydarzeń czy wszelkimi innymi aspektami związanymi z naszymi produktami. Zależy nam na zapewnieniu Ci najwyższej jakości obsługi i satysfakcji.\n\nMożesz skontaktować się z nami poprzez formularz kontaktowy poniżej, wysyłając e-mail na adres [adres e-mail] lub dzwoniąc pod numer [numer telefonu]. Nasza pasja do wina jest nieodłączną częścią tego, co robimy, i chcemy, abyś mógł czerpać z niej radość i inspirację.\n\nCzekamy na Twój kontakt i nie możemy się doczekać, aby podzielić się z Tobą fascynującym światem win Portell!\n\nSerdecznie pozdrawiamy,\nZespół Portell Wines"
+  }
+}
