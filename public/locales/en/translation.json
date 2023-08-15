@@ -92,7 +92,7 @@
       "type": "Red wine, dry",
       "alcohol": "13.0% vol.",
       "variety": "60% Tempranillo, 30% Cabernet Sauvignon, 30% Merlot",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Winemaking: Reserva wine is one of the most important wines of the winery since only the best harvests of Merlot and Cabernet Sauvignon will become this great wine, after a long maceration that will last the time necessary to extract its full potential.\nTasting Notes: dark currant with brick shades; On the nose, in first impression, ripe red fruits come out wrapped in balsamic notes and a spicy background. It is a smooth and silky wine, and the wide and sweet tannins allow us an excellent evolution. Long finish with reminiscences of tobacco and toast.\nServing Temperature: 16°C",
       "image": "images/wines/wine8.png"
     },
     {
@@ -101,7 +101,7 @@
       "type": "Rose wine",
       "alcohol": "11.5% vol.",
       "variety": "100% Trepat",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Winemaking: This exceptional rosé wine is crafted from hand-picked grapes harvested at their peak ripeness. The grapes undergo skin maceration for the necessary time to extract its vibrant color. The free-run must is then obtained and, after settling, ferments at a controlled temperature (13-15°C) to preserve the variety's characteristic aromas.\nTasting Notes: Delicate strawberry hue, clear and brilliantly bright. On the palate, it offers a smooth and balanced experience, with a touch of freshness from its well-integrated acidity.\nServing Temperature: 16°C",
       "image": "images/wines/wine9.png"
     },
     {

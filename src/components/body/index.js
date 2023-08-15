@@ -1,7 +1,6 @@
 import { Typography, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import {
-  BodyButton,
   BodyContainer,
   BodyContent,
   BodyDescription,

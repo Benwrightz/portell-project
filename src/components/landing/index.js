@@ -78,7 +78,7 @@ export default function LandingPage() {
               color="primary"
               aria-label="Instagram"
               sx={{ ml: 1 }}
-              href="https://www.instagram.com/portellpl/"
+              href="https://instagram.com/portellpl/"
               target="_blank"
             >
               <InstagramIcon />
