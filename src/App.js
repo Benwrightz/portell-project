@@ -14,6 +14,7 @@ import MyWines from "./components/mywines";
 import LandingPage from "./components/landing";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useState } from "react";
+import CopyRight from "./components/copyright";
 
 function Loading() {
   return <>Loading...</>;
@@ -33,7 +34,10 @@ function App() {
       <Router>
         <LocaleContext.Provider value={{ locale, setLocale }}>
           <Suspense fallback={<Loading />}>
-            <Container maxWidth="xl" sx={{ background: "#fff" }}>
+            <Container
+              maxWidth="xl"
+              sx={{ background: "#fff", scrollBehavior: "smooth" }}
+            >
               <UIProvider>
                 <Appbar />
                 <Slider />
@@ -44,6 +48,7 @@ function App() {
                   <Route path="/ContactUs" element={<Footer />} />
                   <Route path="*" element={<NotFound />} />
                 </Routes>
+                <CopyRight />
                 <AppDrawer />
               </UIProvider>
             </Container>

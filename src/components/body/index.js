@@ -14,6 +14,8 @@ export default function Body() {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
   const { t } = useTranslation();
+  const descriptionText = t("body.description").split("\n");
+
   return (
     <BodyContainer>
       <BodyImage src="/images/body/body1.jpg" />
@@ -32,9 +34,11 @@ export default function Body() {
           {t("body.text")}
         </Typography>
         <BodyTitle variant="h5">{t("body.title")}</BodyTitle>
-        <BodyDescription variant="body2">
-          {t("body.description")}
-        </BodyDescription>
+        {descriptionText.map((paragraphy, index) => (
+          <BodyDescription variant="body2" key={index}>
+            {paragraphy}
+          </BodyDescription>
+        ))}
       </BodyContent>
     </BodyContainer>
   );

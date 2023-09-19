@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Grid,
   Typography,
@@ -20,29 +21,38 @@ export default function Footer() {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("md"));
   const { t } = useTranslation();
+
+  const descriptionText = t("footer.description").split("\n");
+
   return (
     <Box
       sx={{
         padding: "1.875rem 1.875rem",
         background: "#000",
-        height: "100vh",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
       }}
     >
       <Grid container spacing={2} justifyContent="center">
         <Grid item sm={6} md={12} lg={12}>
           <FooterTitle variant="body1">{t("footer.title")}</FooterTitle>
-          <Typography
-            variant="body1"
-            sx={{
-              fontFamily: "Times",
-              fontSize: "0.8125rem",
-              color: Colors.white,
-              lineHeight: 1.5,
-              textAlign: "center",
-            }}
-          >
-            {t("footer.description")}
-          </Typography>
+          {descriptionText.map((paragraph, index) => (
+            <Typography
+              key={index}
+              variant="body1"
+              sx={{
+                fontFamily: "Times",
+                fontSize: "0.8125rem",
+                color: Colors.white,
+                lineHeight: 1.5,
+                textAlign: "center",
+              }}
+            >
+              {paragraph}
+            </Typography>
+          ))}
           <Box
             sx={{
               mt: 2,
@@ -79,22 +89,7 @@ export default function Footer() {
           </Box>
         </Grid>
       </Grid>
-      <Grid sx={{ backgroundColor: Colors.dark }}>
-        <Divider sx={{ mt: 3 }}>
-          <Chip
-            label="Copyright ©2023 All rights reserved"
-            sx={{
-              fontFamily: "Times",
-              fontSize: "9px",
-              color: Colors.white,
-              backgroundColor: Colors.dark,
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          />
-        </Divider>
-
+      <Grid sx={{ backgroundColor: Colors.dark, flexGrow: 0 }}>
         <Divider>
           <Link
             to="https://profile.nabentech.com"
@@ -102,12 +97,12 @@ export default function Footer() {
             style={{ textDecoration: "none" }}
           >
             <Chip
-              label="This template is made with 🤍 by Benjamin "
+              label="Designed with 🤍 by Nabentech "
               sx={{
                 fontFamily: "Times",
                 fontSize: "9px",
                 mt: 1,
-                color: Colors.white,
+                color: Colors.secondary,
                 backgroundColor: Colors.dark,
                 display: "flex",
                 justifyContent: "center",

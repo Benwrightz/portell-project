@@ -78,3 +78,7 @@ export const LandingCaption = styled(Typography)(({ theme }) => ({
   marginBottom: "2em",
   textAlign: "center",
 }));
+
+export const LandingButton = styled(Typography)(({ theme }) => ({
+  textDecoration: "None",
+}));

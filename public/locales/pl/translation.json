@@ -8,19 +8,19 @@
 
   "messages": {
     "intro": "Przedstawiamy wina Portell 🍷",
-    "pleasure": "Przyjemność z pochodzeniem",
+    "pleasure": "Marka wina musującego Cava",
     "refine": "Wyrafinowanie w butelce"
   },
   "landing": {
     "text": "Odkryj doświadczenie z winem Portell",
-    "description": "Podnieś swoje chwile celebracji, twórz niezapomniane wspomnienia\nz bliskimi i rozkoszuj się radością życia dzięki winu Portell.\nCzy to cichy wieczór w domu, wielka okazja czy spontaniczne spotkanie przyjaciół,\nPortell podniesie twoje doświadczenia do niezwykłych wysokości. Odkryj naszą wyjątkową kolekcję win Portell\ni obejmij prawdziwą esencję elegancji. Z każdą odkorkowaną butelką, niech magia Portell przeniesie cię do świata wykwintnych smaków\ni niezapomnianych przeżyć.",
+    "description": "Twórz niezapomniane wspomnienia z bliskimi i rozkoszuj się radością życia dzięki winu Portell. Spokojny wieczór w domu, przyjęcie, czy spontaniczne spotkanie z przyjaciółmi, Portell umili Ci te chwile. Odkryj wyjątkową kolekcję win Portell i poznaj prawdziwą esencję elegancji. Pozwól, by magia naszych win przeniosła Cię do świata wyrafinowanych smaków i niezapomnianych wrażeń.",
     "caption": "Czy jesteś gotów odkorkować tę podróż? Odkryj wino Portell już dziś!",
     "button": "Odkryj Nasze Wina"
   },
   "body": {
     "text": "Wiadomość od Winiarni Portell",
     "title": "Nowa Generacja Winiarzy",
-    "description": "Istnieje wiele wariacji fragmentów Lorem Ipsum dostępnych, ale\nwiększość doświadczyła pewnych zmian, poprzez dodanie humoru lub losowo dobieranych\nsłów, które nawet trochę nie wydają się wiarygodne. Jeśli zamierzasz użyć fragmentu\nLorem Ipsum, musisz się upewnić, że nie ma niczego żenującego ukrytego w środku tekstu.\nWszystkie generatory Lorem Ipsum w internecie mają tendencję do powtarzania zdefiniowanych\nfragmentów, aż będzie to konieczne, co czyni go pierwszym prawdziwym generatorem\nna internecie. Używa słownika ponad 200 łacińskich słów, w połączeniu z kilkoma\nmodelowymi strukturami zdań, aby wygenerować Lorem Ipsum, które wygląda rozsądnie.\nGenerowane Lorem Ipsum jest więc zawsze wolne od powtórzeń, wtrąceń humoru\nczy nienaturalnych słów itp."
+    "description": "Needed Sp. z o.o. jest oficjalnym dystrybutorem win Portell w Polsce. Portell to marka win musujących typu Cava, a także win stołowych tworzonych w Vinícola de Sarral SCCL w hiszpańskim regionie Tarragona. Winnica słynie z wykorzystywania najnowszych zdobyczy techniki, zachowując przy tym tradycyjne metody przy produkcji swoich win, co daje doskonałe, zbalansowane wina o niepowtarzalnej jakości i smaku. Na przestrzeni 2000 metrów kwadratowych podziemnych pomieszczeń, spoczywa ponad 2 miliony butelek Cavy poddających się wtórnej fermentacji w butelkach oraz pomieszczenia dojrzewania w beczkach dębowych. Nowoczesna linia rozlewnicza jest wyposażona w napełniacz izobarometryczny, nakrycia, etykietujące, pakujące itp. Jako środek produkcji w stałej ewolucji, umożliwiający w każdej chwili kontrolę niezbędną do gwarantowania maksymalnej jakości naszych produktów na najbardziej wymagających rynkach. Stawiamy na filozofię zorientowaną na przyszłość, dążąc do postępu technicznego, jednocześnie nie zapominając o naszej stuletniej historii.\n\n Z poważaniem, \nMichał Możejko."
   },
   "portell": [
     {
@@ -110,7 +110,7 @@
       "type": "Czerwone wino",
       "alcohol": "12.5% obj.",
       "variety": "70% Tempranillo, 15% Cabernet Sauvignon, 15% Merlot",
-      "description": "Wytwarzanie wina: To Czerwone Wino jest głównie wytwarzane z odmiany winogron Tempranillo. W wyniku długiego procesu maceracji w kontrolowanej temperaturze 27°C uzyskuje się lepszą ekstrakcję koloru i aromatów. Część wina jest następnie starzona w beczkach z amerykańskiego dębu. Pozostała część jest przechowywana w zbiornikach przez minimalnie 12 miesięcy. Po roku od zbiorów, oba wina są mieszane i butelkowane.\nOpis smaku: Efektem jest wino o ceglastoczerwonym kolorze na tle rubinowego tła. Wydobywa się z niego intensywny aromat owoców leśnych z nutami pieczonych. Podniebienie doznaje miękkiego i ciepłego odczucia z wyraźnym pikantnym finiszem.\nGastronomia: Doskonale komponuje się ze wszystkimi daniami i stanowi doskonałe uzupełnienie lokalnej kuchni naszego regionu, takiej jak calçots, coques de recapte, surowy dorsz, grillowane mięso i wiele innych.\nTemperatura podawania: 16°C",
+      "description": "Wytwarzanie: To Czerwone Wino jest głównie wytwarzane z odmiany winogron Tempranillo. W wyniku długiego procesu maceracji w kontrolowanej temperaturze 27°C uzyskuje się lepszą ekstrakcję koloru i aromatów. Część wina jest następnie starzona w beczkach z amerykańskiego dębu. Pozostała część jest przechowywana w zbiornikach przez minimalnie 12 miesięcy. Po roku od zbiorów, oba wina są mieszane i butelkowane.\nOpis smaku: Efektem jest wino o ceglastoczerwonym kolorze na tle rubinowego tła. Wydobywa się z niego intensywny aromat owoców leśnych z nutami pieczonych. Podniebienie doznaje miękkiego i ciepłego odczucia z wyraźnym pikantnym finiszem.\nGastronomia: Doskonale komponuje się ze wszystkimi daniami i stanowi doskonałe uzupełnienie lokalnej kuchni naszego regionu, takiej jak calçots, coques de recapte, surowy dorsz, grillowane mięso i wiele innych.\nTemperatura podawania: 16°C",
       "image": "images/wines/wine10.png"
     }
   ],
@@ -119,6 +119,6 @@
   },
   "footer": {
     "title": "Skontaktuj się z nami",
-    "description": "Masz pytania, uwagi lub chciałbyś dowiedzieć się więcej o naszych winach Portell? Jesteśmy tutaj, aby Ci pomóc! Z przyjemnością udzielimy Ci wszelkich informacji dotyczących naszych wspaniałych win, procesu produkcji i możliwości degustacji.\n\nNasz zespół ekspercki jest gotowy odpowiedzieć na Twoje zapytania i służyć radą w kwestiach związanych z doborem wina, organizacją wydarzeń czy wszelkimi innymi aspektami związanymi z naszymi produktami. Zależy nam na zapewnieniu Ci najwyższej jakości obsługi i satysfakcji.\n\nMożesz skontaktować się z nami poprzez formularz kontaktowy poniżej, wysyłając e-mail na adres [adres e-mail] lub dzwoniąc pod numer [numer telefonu]. Nasza pasja do wina jest nieodłączną częścią tego, co robimy, i chcemy, abyś mógł czerpać z niej radość i inspirację.\n\nCzekamy na Twój kontakt i nie możemy się doczekać, aby podzielić się z Tobą fascynującym światem win Portell!\n\nSerdecznie pozdrawiamy,\nZespół Portell Wines"
+    "description": "Masz pytania, uwagi lub chcesz dowiedzieć się więcej o winach Portell? Jesteśmy tutaj, aby Ci pomóc! Z przyjemnością udzielimy wszelkich informacji na temat naszych wyśmienitych win, procesu produkcji i możliwości degustacji. Nasz zespół ekspertów jest gotowy odpowiedzieć na Twoje pytania i zaoferować wskazówki dotyczące wyboru wina, planowania wydarzeń i wszelkich innych aspektów związanych z naszymi produktami. Zależy nam na świadczeniu usług na najwyższym poziomie. Możesz skontaktować się z nami za pośrednictwem poniższego formularza kontaktowego, wysłać wiadomość e-mail na adres Needed.Portell@gmail.com lub zadzwonić pod numer +48 500 822 260. Nasza pasja do wina jest nieodłączną częścią tego, co robimy. Chcemy, abyś cieszył się i inspirował urzekającym światem win Portell. Z niecierpliwością na Ciebie czekamy. \n\nGorące pozdrowienia,\nZespół Portell Wines"
   }
 }

@@ -1,9 +1,9 @@
-import { Box, List, Typography, Button } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { Colors } from "../theme";
 
 export const BodyContainer = styled(Box)(({ theme }) => ({
-  position: "relative",
+  // position: "relative",
   background: Colors.dark,
   backgroundSize: "cover",
   height: "100%",
@@ -44,9 +44,9 @@ export const BodyDescription = styled(Typography)(({ theme }) => ({
   fontFamily: "Times",
   fontSize: "0.8125rem",
 
-  marginBottom: "3em",
+  marginBottom: "1.5em",
   [theme.breakpoints.down("sm")]: {
-    marginBottom: "1.5em",
+    marginBottom: "1em",
   },
 }));
 

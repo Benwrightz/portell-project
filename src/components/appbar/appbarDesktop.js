@@ -16,7 +16,6 @@ export default function AppbarDesktop() {
   const handleChange = (event, newAlignment) => {
     if (newAlignment !== null) {
       setAlignment(newAlignment);
-      // Add your translation logic here based on the selected alignment
     }
     i18n.changeLanguage(event.target.value);
   };
@@ -33,16 +32,16 @@ export default function AppbarDesktop() {
       </Link>
       <MyList type="row">
         <Link to="/" style={linkStyle}>
-          <ListItemText primary={t("appbar.home")} />
+          <ListItemText primary={t(`appbar.home`)} />
         </Link>
         <Link to="/AboutUs" style={linkStyle}>
-          <ListItemText primary={t("appbar.about")} />
+          <ListItemText primary={t(`appbar.about`)} />
         </Link>
         <Link to="/OurWines" style={linkStyle}>
-          <ListItemText primary={t("appbar.wines")} />
+          <ListItemText primary={t(`appbar.wines`)} />
         </Link>
         <Link to="/ContactUs" style={linkStyle}>
-          <ListItemText primary={t("appbar.contact")} />
+          <ListItemText primary={t(`appbar.contact`)} />
         </Link>
         <ToggleButtonGroup
           color="success"
